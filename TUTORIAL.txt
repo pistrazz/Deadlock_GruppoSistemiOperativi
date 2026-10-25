@@ -1,0 +1,19 @@
+TUTORIAL PER INSTALLARE GIT HUB SUL PC:
+
+0. Create un account su GitHub
+
+1. Aprire il terminale di linux e digirare:
+	sudo apt update && sudo apt install git gh -y	
+	
+2. Aggiungete username e email usata nell account GitHub sempre da terminale:
+	git config --global user.name "Il vostro nome"
+	git config --global user.email "La vostra email"
+	
+3. Fate l'accesso a GitHub da terminale:
+	gh auth login
+	Rispondete alle domande che vi vengono fatte selezionando:
+	GitHub.com
+	HTTPS
+	y
+	
+4. Copiate il codice che vi spunta in basso, fate invio e vi si apre un link su gitHub, inserite il codice che avete copiato
